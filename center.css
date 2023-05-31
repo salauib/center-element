@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(89, 119, 89);
+}
+
+.main-div {
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 12px 11px 147px -58px rgba(0,0,0,1);
+
+}
+
+.main-div img {
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border-radius: 10px;
+}
+.main-div p {
+    color: grey;
+    text-align: center;
+}
+
+@media (max-width: 375px){
+    * {
+        background-color: silver;
+    }
+    .main-div{
+    display: none;
+    }
+}
