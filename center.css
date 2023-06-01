@@ -33,7 +33,7 @@ body {
 
 @media (max-width: 375px){
     * {
-        background-color: silver;
+        background-color: gold;
     }
     .main-div{
     display: none;
